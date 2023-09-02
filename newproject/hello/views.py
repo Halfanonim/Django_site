@@ -62,4 +62,8 @@ def index(request):
            <p>Курс 1: {Final}</p>
            <p>Курс 2: {Final1}</p>
            <p>Температура: {temp4}</p>
+           <script> setTimeout(function(){{
+   window.location.reload();
+}}, 60000);
+           </script>
        """)
